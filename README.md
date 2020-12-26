@@ -6,15 +6,13 @@ This demo consists of 3 screens. Login, Home, Details using room database.
 ## ✨ Screenshots
 | Main Screen | Statistics |  Preventions |
 |:-:|:-:|:-:|
-| ![Fist](media/screen_1.png?raw=true) | ![3](media/screen_2.png?raw=true) | ![3](media/screen_3.png?raw=true) |
-| Main Screen Dark | Statistics Dark |  FAQ |
-| ![4](media/screen_dark_1.png?raw=true) | ![5](media/screen_dark_2.png?raw=true) | ![6](media/screen_dark_3.png?raw=true) |
+| ![Fist](media/login.png?raw=true) | ![3](media/home.png?raw=true) | ![3](media/profile.png?raw=true) |
 
 ## 🌟 About
 It simply loads data from API and stores it in persistence storage (i.e. SQLite Database). Data will be always loaded from local database. Remote data (from API) and Local data is always synchronized.
 - This makes it offline capable 😃. 
 - Clean and Simple Material UI.
-- It supports dark theme too 🌗.
+
 
 ## 🚀 Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -28,7 +26,7 @@ Follow these steps if you want to get a local copy of the project on your machin
 
 #### 1. Clone or fork the repository by running the command below	
 ```
-git https://github.com/HariKulhari06/Covid-19-Tracker
+git https://github.com/shiv219/roomDemo
 ```
 
 #### 2. Import the project in AndroidStudio, and add API Key
