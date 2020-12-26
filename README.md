@@ -1,7 +1,3 @@
-# roomDemo
-This demo consists of 3 screens. Login, Home, Details using room database.
-
-
 
 ## ✨ Screenshots
 | Login | Home |  Profile |
@@ -33,7 +29,7 @@ git https://github.com/shiv219/roomDemo
 1.  In Android Studio, go to File -> New -> Import project
 2.  Follew the dialog wizard to choose the folder where you cloned the project and click on open.
 3.  Android Studio imports the projects and builds it for you
-4.  Use login credentials 
+
 
 
 ## 🤝 How to Contribute
@@ -52,8 +48,7 @@ git https://github.com/shiv219/roomDemo
   - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Stores UI-related data that isn't destroyed on UI changes. 
   - [ViewBinding](https://developer.android.com/topic/libraries/view-binding) - Generates a binding class for each XML layout file present in that module and allows you to more easily write code that interacts with views.
   - [Room](https://developer.android.com/topic/libraries/architecture/room) - SQLite object mapping library.
-  - [WorkManager](https://developer.android.com/topic/libraries/architecture/workmanager) - WorkManager is an API that makes it easy to schedule deferrable, asynchronous tasks that are expected to run even if the app exits or the device restarts.
-- [Hilt](https://developer.android.com/training/dependency-injection/hilt-android) - Dependency Injection Framework
-- [Paging3](https://developer.android.com/topic/libraries/architecture/paging/v3) - Paging library for endless recycler view scroll
-- [Retrofit](https://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java.
-- [Material Components for Android](https://github.com/material-components/material-components-android) - Modular and customizable Material Design UI components for Android.
+  - [Hilt](https://developer.android.com/training/dependency-injection/hilt-android) - Dependency Injection Framework 
+  - [Paging3](https://developer.android.com/topic/libraries/architecture/paging/v3) - Paging library for endless recycler view scroll
+  - [Retrofit](https://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java.
+  - [Material Components for Android](https://github.com/material-components/material-components-android) - Modular and customizable Material Design UI components for Android.
