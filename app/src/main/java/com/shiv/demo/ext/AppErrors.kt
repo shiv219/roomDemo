@@ -4,6 +4,7 @@ import androidx.annotation.StringRes
 import com.shiv.demo.R
 import com.shiv.demo.appLevelModel.AppError
 import kotlinx.coroutines.TimeoutCancellationException
+import org.json.JSONObject
 import retrofit2.HttpException
 
 fun Throwable?.toAppError(): AppError? {
@@ -12,7 +13,7 @@ fun Throwable?.toAppError(): AppError? {
         is AppError -> this
         is HttpException->{
 
-          AppError.ApiException.InvalidDataException(NetworkInvalidDataException( response()?.errorBody()?.string()?:""))
+          AppError.ApiException.InvalidDataException(NetworkInvalidDataException( JSONObject(response()?.errorBody()?.string()?:"").getString("error")))
         }
         is TimeoutCancellationException -> AppError.ApiException.NetworkException(this)
         else -> AppError.UnknownException(this)

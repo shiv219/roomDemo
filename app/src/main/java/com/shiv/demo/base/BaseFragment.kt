@@ -31,7 +31,7 @@ abstract class BaseFragment(id: Int) : Fragment(id), View.OnClickListener {
         }
     }
 
-    fun showNetworkErrorDialog(
+   private fun showNetworkErrorDialog(
         message: String = getString(R.string.check_internet_connection),
         callback: () -> Unit
     ) {
@@ -57,7 +57,7 @@ abstract class BaseFragment(id: Int) : Fragment(id), View.OnClickListener {
     fun onError(stringRes: AppError) {
         when (stringRes) {
             is AppError.ApiException.InvalidDataException -> {
-                stringRes.message?.let {
+                stringRes.cause?.message?.let {
                     requireActivity().showToast(it)
                 }
             }
