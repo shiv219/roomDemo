@@ -4,7 +4,7 @@ This demo consists of 3 screens. Login, Home, Details using room database.
 
 
 ## ✨ Screenshots
-| Main Screen | Statistics |  Preventions |
+| Login | Home |  Profile |
 |:-:|:-:|:-:|
 | ![Fist](media/login.png?raw=true) | ![3](media/home.png?raw=true) | ![3](media/profile.png?raw=true) |
 
@@ -29,10 +29,11 @@ Follow these steps if you want to get a local copy of the project on your machin
 git https://github.com/shiv219/roomDemo
 ```
 
-#### 2. Import the project in AndroidStudio, and add API Key
+#### 2. Import the project in AndroidStudio
 1.  In Android Studio, go to File -> New -> Import project
 2.  Follew the dialog wizard to choose the folder where you cloned the project and click on open.
 3.  Android Studio imports the projects and builds it for you
+4.  Use login credentials 
 
 
 ## 🤝 How to Contribute
@@ -52,7 +53,7 @@ git https://github.com/shiv219/roomDemo
   - [ViewBinding](https://developer.android.com/topic/libraries/view-binding) - Generates a binding class for each XML layout file present in that module and allows you to more easily write code that interacts with views.
   - [Room](https://developer.android.com/topic/libraries/architecture/room) - SQLite object mapping library.
   - [WorkManager](https://developer.android.com/topic/libraries/architecture/workmanager) - WorkManager is an API that makes it easy to schedule deferrable, asynchronous tasks that are expected to run even if the app exits or the device restarts.
-- [Dagger 2](https://dagger.dev/) - Dependency Injection Framework
+- [Hilt](https://developer.android.com/training/dependency-injection/hilt-android) - Dependency Injection Framework
+- [Paging3](https://developer.android.com/topic/libraries/architecture/paging/v3) - Paging library for endless recycler view scroll
 - [Retrofit](https://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java.
-- [Coil-kt](https://coil-kt.github.io/coil/) - An image loading library for Android backed by Kotlin Coroutines.
 - [Material Components for Android](https://github.com/material-components/material-components-android) - Modular and customizable Material Design UI components for Android.
