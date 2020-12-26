@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">RoomDemo</string>
+    <string name="profile">Profile</string>
+    <string name="signin">Sign In</string>
+    <string name="welcome">Welcome</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="login">Login</string>
+
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="check_internet_connection">Please check internet connection and try again later!</string>
+    <string name="something_went_wrong">Something went wrong!</string>
+    <string name="ok">OK</string>
+    <string name="enter_valid_email">Enter valid email address</string>
+    <string name="field_cant_be_empty">Field can\'t be empty</string>
+    <string name="retry">Retry</string>
+    <string name="home">Home</string>
+
+
+</resources>

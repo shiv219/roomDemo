@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#029585</color>
+    <color name="colorPrimaryDark">#029585</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="black">#000000</color>
+    <color name="gray_text_color">#797979</color>
+    <color name="divider_color">#707070</color>
+    <color name="transparent">#00000000</color>
+    <color name="light_gray_color">#F2F2F2</color>
+    <color name="dark_grey">#929292</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+    <color name="blue">#3369FF</color>
+    <color name="light_divider_color">#EFEFEF</color>
+    <color name="bg_gray_color">#EBEBEB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dark_gray_text_color">#505050</color>
+    <color name="blue_fb">#4267B2</color>
+    <color name="profile_overlay_color">#8F050101</color>
+    <color name="home_competition_creater_text_color">#272833</color>
+
+</resources>
